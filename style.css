@@ -1,0 +1,174 @@
+ * {
+    padding: 0;
+    margin: 0;
+    color: white;
+ }
+ body {
+    background-color: hsl(0, 0%, 95%);
+ }
+.autos-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    max-width: 600px;
+    min-width: 328px;
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.text-wrapper {
+    margin-left: 4rem;
+    margin-right: 1.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.class-icon {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 4rem;
+    height: auto;
+}
+.car-class {
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display, sans-serif;
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+}
+.class-description {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca, sans-serif;
+    line-height: 1.55rem;
+    font-size: .9rem;
+}
+.sedans-learn-more-button {
+    font-family: Lexend Deca, sans-serif;
+    color:  hsl(31, 77%, 52%);
+    font-size: .875rem;
+    display: inline-block;
+    background-color: hsl(0, 0%, 95%);
+    border: solid hsl(0, 0%, 95%) 1px;
+    padding: .9rem 2rem;
+    border-radius: 2rem;
+    margin-top: 1.325rem;
+    margin-bottom: 2.5rem;
+}
+.suvs-learn-more-button {
+    font-family: Lexend Deca, sans-serif;
+    color: hsl(184, 100%, 22%);
+    font-size: 1rem;
+    display: inline-block;
+    background-color: hsl(0, 0%, 95%);
+    border: solid hsl(0, 0%, 95%) 1px;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.luxury-learn-more-button {
+    font-family: Lexend Deca, sans-serif;
+    color: hsl(179, 100%, 13%);
+    font-size: 1rem;
+    display: inline-block;
+    background-color: hsl(0, 0%, 95%);
+    border: solid hsl(0, 0%, 95%) 1px;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.sedans-learn-more-button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+.suvs-learn-more-button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+.luxury-learn-more-button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+@media screen and (min-width:850px){
+    .autos-card{
+        flex-direction: row;
+        max-width: 920px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10.75rem;
+    }
+    .text-wrapper {
+       margin-top: 0rem;
+       margin-bottom: 0rem;
+       margin-left: 3rem;
+       margin-right: 3.25rem;
+    }
+    .class-icon {
+        width: 4rem;
+        margin-top: 3rem;
+       margin-bottom: 2rem;
+    }
+    .car-class {
+        font-size: 2.5rem;
+        margin-bottom: 1.6rem;
+    }
+    .class-description {
+        font-size: .925rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        line-height: 1.55rem;
+    }
+    .sedans-learn-more-button {
+        font-size: .93125rem;
+        display: inline-block;
+        padding: .875rem 2rem;
+        border-radius: 5rem;
+        margin-top: 5.125rem;
+        margin-bottom: 3rem;
+    }
+    .suvs-learn-more-button {
+        font-size: .93125rem;
+        display: inline-block;
+        padding: .875rem 2rem;
+        border-radius: 5rem;
+        margin-top: 5.125rem;
+        margin-bottom: 3rem;
+    }
+    .luxury-learn-more-button {
+        font-size: .93125rem;
+        display: inline-block;
+        padding: .875rem 2rem;
+        border-radius: 5rem;
+        margin-top: 5.125rem;
+        margin-bottom: 3rem;
+    }
+    .sedans {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: .5rem;
+        border-top-left-radius: .5rem;
+        max-width: 307px;
+    }
+    .luxury {
+        border-top-right-radius: .5rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: .5rem;
+        max-width: 307px;
+    }
+    .suvs {
+        max-width: 307px;
+    }
+}
